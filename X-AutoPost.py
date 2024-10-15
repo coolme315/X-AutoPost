@@ -16,7 +16,7 @@ except Exception as e:
 
 # Consumer Keys
 ck = config.API_Key
-cs = config.API_Key_Secret #API KEY SECRETが入ります
+cs = config.API_Key_Secret
 
 # Authentication Tokens
 bt = config.Bearer_Token
@@ -80,7 +80,7 @@ def PostAction():
     client.create_tweet(text=posttext)
     #print(posttext)
 
-dat = ChatbotStorage() # bot内管理データ:bot internal manage data
+dat = ChatbotStorage()
         
 if __name__ == "__main__":
     ChatbotStorage()
