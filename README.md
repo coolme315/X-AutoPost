@@ -23,16 +23,17 @@ https://qiita.com/neru-dev/items/857cc27fd69411496388
 
 引数1にポストしたい文字列を入れるとその文字列をポストします。
 
-リリース時点で改行には対応していません。
-
 SpecialThanks
 
 
 翻訳ちゃん(さよなり様)
+
 https://github.com/sayonari/twitchTransFreeNext
 
 DoorBellBot(L4yLa様)
+
 https://github.com/L4yLa/TwitchBots
 
 【Python】X API v2経由でポスト（ツイート）する(holy様)
+
 https://zenn.dev/holy0306/articles/009b5b4744e230
