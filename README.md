@@ -20,6 +20,8 @@ config.pyで指定したメッセージをXにポストするソフトです。
 リリース時点で改行には対応していません。
 
 SpecialThanks
+
+
 翻訳ちゃん(さよなり様)
 https://github.com/sayonari/twitchTransFreeNext
 
