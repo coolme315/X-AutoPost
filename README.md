@@ -5,9 +5,15 @@ config.pyで指定したメッセージをXにポストするソフトです。
 
 1.Xのアカウント
 
-2.XのAPIキー
+2.XのAPIキー(5種。API,API SECRET,Bearer Token,ACCESS Token,Access Token Secret)
 
 3.config.pyを編集できるテキストエディタ
+
+1と2は
+
+https://qiita.com/neru-dev/items/857cc27fd69411496388
+
+を参考に取得してください。
 
 動作確認環境はWindows10
 
