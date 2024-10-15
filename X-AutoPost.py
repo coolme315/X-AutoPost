@@ -75,12 +75,14 @@ def PostAction():
         except:
             posttext=urllib.parse.unquote(sys.argv[1])
     else:
-        posttext=urllib.parse.unquote(config.Default_Message.replace('{title}',chn).replace('{X}',config.Twitter_Channel).replace('{Twitch}',"https://twitch.tv/"+config.Twitch_Channel).replace('{\n}','\n'))
+        posttext=urllib.parse.unquote(config.Default_Message)
+        
+    posttext=posttext.replace('{title}',chn).replace('{X}',config.Twitter_Channel).replace('{Twitch}',"https://twitch.tv/"+config.Twitch_Channel).replace('{n}','\n')
 #ツイート
     client.create_tweet(text=posttext)
     #print(posttext)
 
-dat = ChatbotStorage()
+dat = ChatbotStorage() # bot内管理データ:bot internal manage data
         
 if __name__ == "__main__":
     ChatbotStorage()
